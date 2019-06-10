@@ -21,7 +21,7 @@ cliente.on("message", (mensaje) => {
 	//Esta madre es para prevenir un bucle infinito en el servidor
 	if (mensaje.author.bot) return;
 
-	if(mensaje.channel.id === clipsID || mensaje.channel.id === cochinadasID || mensaje.channel.id === imagenes_randomID || mensaje.channel.id === memesID || mensaje.channel.id === miusicID || mensaje.channel.id === niñas_bonitasID || mensaje.channel.id === niños_bonitosID || mensaje.channel.id === setups_gamersID || mensaje.channel.id === mioID){
+	if(mensaje.channel.id === clipsID || mensaje.channel.id === cochinadasID || mensaje.channel.id === imagenes_randomID || mensaje.channel.id === memesID || mensaje.channel.id === miusicID || mensaje.channel.id === niñas_bonitasID || mensaje.channel.id === niños_bonitosID || mensaje.channel.id === setups_gamersID){
 			if(mensaje.content.includes('.com/') || mensaje.content.includes('www.') || mensaje.content.includes('https://') || mensaje.content.includes('http://')){
 				return;
 			}
