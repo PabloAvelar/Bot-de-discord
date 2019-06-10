@@ -1,0 +1,20 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "Este bot elimina mensajes en canales de sólo reacciones. Creado para el servidor Caldolandia.",
+  "main": "miservidor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "author": "Pablo Avelar Armenta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.4",
+    "discord.js": "^11.5.1"
+  }
+}
