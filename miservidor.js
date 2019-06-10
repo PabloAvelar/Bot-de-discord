@@ -23,7 +23,13 @@ cliente.on("message", (mensaje) => {
 
 	if(mensaje.channel.id === clipsID || mensaje.channel.id === cochinadasID || mensaje.channel.id === imagenes_randomID || mensaje.channel.id === memesID || mensaje.channel.id === miusicID || mensaje.channel.id === niñas_bonitasID || mensaje.channel.id === niños_bonitosID || mensaje.channel.id === setups_gamersID){
 			if(mensaje.content.includes('.com/') || mensaje.content.includes('www.') || mensaje.content.includes('https://') || mensaje.content.includes('http://')){
-				return;
+				console.log("Link");
+				if(mensaje.embeds.length > 0){
+					console.log("link normal");
+					return;
+				}else{
+					console.log("No es un link normal");
+				}
 			}
 
 			if(mensaje.attachments.size > 0){
