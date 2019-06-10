@@ -13,9 +13,6 @@ var niñas_bonitasID = "581367399274774531";
 var niños_bonitosID = "581367584935641098";
 var setups_gamersID  = "581586082068561930";
 
-var mioID = "587301154430386186";
-var comprobante;
-
 cliente.on("ready", () =>{
 	console.log("ESTOY LISTO BRO XD HOLA");
 });
